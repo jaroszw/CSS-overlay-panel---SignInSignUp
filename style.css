@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500;800;900&display=swap');
 
 * {
   margin: 0;
@@ -18,7 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--main-bg);
-  font-family: "Sansita Swashed", cursive;
+  font-family: 'Sansita Swashed', cursive;
 }
 
 .wrapper {
@@ -144,16 +144,14 @@ input {
   right: 0;
   overflow: hidden;
   transition: ease-out 0.5s;
-  border: 3px solid blue;
 }
 
 .overlay-panel {
-  position: relative;
+  position: absolute;
   height: 100%;
   width: 200%;
   left: -100%;
   transition: ease-out 0.5s;
-  border: 3px solid yellow;
 }
 
 .panel-left {
@@ -168,7 +166,7 @@ input {
   align-items: center;
   padding-top: 80px;
   color: var(--second-col);
-  transition: ease-out 0.5s;
+  transition: ease-out 0.5s 0.2s;
 }
 
 .panel-right {
